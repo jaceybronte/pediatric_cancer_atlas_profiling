@@ -20,7 +20,8 @@ warehouse_path = cytotable.convert(
     dest_backend="iceberg",
     dest_datatype="parquet",
     preset="cellprofiler_csv",
-    outline_dir="./outlines",
+    image_dir="/path/to/source/images",
+    outline_dir="/path/to/outlines",
 )
 
 print("Warehouse created:")
