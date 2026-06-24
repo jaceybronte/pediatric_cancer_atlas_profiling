@@ -22,6 +22,7 @@ warehouse_path = cytotable.convert(
     preset="cellprofiler_csv",
     image_dir="/path/to/source/images",
     outline_dir="/path/to/outlines",
+    include_source_images=True,
 )
 
 print("Warehouse created:")
